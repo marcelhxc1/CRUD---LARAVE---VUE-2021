@@ -7,15 +7,21 @@ OBS : Todos os comandos devem ser executados em um terminal ou no cmd acessando 
 1 - Abra o arquivo .env.example e faça uma copia dele, feito a copia renomeie para .env e faça a configuração do banco de dados
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=laravel-api
+
 DB_USERNAME=laravel-api
+
 DB_PASSWORD=
 
 2 - Para criar o banco de dados existem duas opções 
 
 2.1 - Executar o comando "php artisan migrate" para que as tabelas sejam criadas automaticamente pelo laravel.
+
 2.2 - Executar o arquivo .sql que está adicionado na pasta DB aqui no repositório.
 
 3 - Feito a inserção do banco de dados seguimos para o procedimento de ligar o servidor da API
